@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Teach Me How To Cook!</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        .orange{
-            color :rgb(224, 113, 33)
-            
+        .pink{
+            color :rgb(218, 23, 201)
         }
-        .brown{
-            color:rgb(94, 61, 18)
-            
-        }
-        .darkorange{
-            color: rgb(199, 84, 2);
+        h3{
+            color:orangered; /*inline ganha de css*/
         }
         body{
-            background-color: rgb(235, 221, 141);
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            font-size: large;
+            background-color: #fff8f0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
         }
     </style>
-</head> 
+</head>
 <body>
     
         <header>
-            <h1> <span class = "orange"> Bolo de cenoura com calda de chocolate </span> </h1>
+            <h1 style="color: rgb(199, 30, 8); font-style: inherit; text-align: center; font-size: 40px;">Teach me how to cook!</h1>
+            <h2> <span class = "pink"> Bolo de cenoura com calda de chocolate </span> </h2>
+            <h4 id="subtitle">Receita tradicional brasileira.</h4>
             <nav>
                 <ul>
                     <li> <a href = "#ingre" >Ingredientes</a></li>
@@ -42,7 +42,7 @@
             <br>  
             <section>  
                 <article id="ingre" > 
-                    <h2> <span class = "brown"> Ingredientes </span></span></h2>
+                    <h3> Ingredientes </h2>
                     <ul>
                         <li>  3 cenouras médias (250g)</li>
                         <li>  4 ovos </li>
@@ -59,8 +59,8 @@
             </article>
             <hr>
             <article id= "modo">
-                <h2> <span class = "brown">Modo de preparo</span></h2> 
-                <h1><span class = "darkorange">Massa:</span>  </h1> 
+                <h3>Modo de preparo</h3> 
+                <h4> Massa: </h4> 
                 <p> Em um liquidificador, bata as cenouras, os ovos e o óleo.
                     Despeje a mistura em um recipiente e misture o açúcar e a farinha de trigo peneirada com o fermento.
                     Coloque em uma fôrma retangular (20 x 30 cm) untada, e leve ao forno médio (180°C), preaquecido, por 40 minutos.
@@ -69,10 +69,14 @@
             </article>
             <hr>
             <article>
-                <h1> <span class = "darkorange">Cobertura:</span> </h1>
+                <h4> Cobertura: </h4>
                 <p> Em uma panela coloque o Leite MOÇA, o Chocolate em Pó DOIS FRADES e a manteiga e leve ao fogo baixo, mexendo sempre, até começar a desprender da panela.
                     Despeje ainda quente sobre o bolo, distribua o chocolate granulado e deixe esfriar</p>
             </article>
+            </section>
+            <hr>
+            <section>
+                <input type="comment"
             </section>
             
         </main>
