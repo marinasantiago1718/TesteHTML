@@ -1,0 +1,35 @@
+nav ul li {
+    margin: auto;
+}
+
+p{
+    background-color: rgb(241, 135, 255);
+    border-radius: 6px;
+}
+
+#subtitle{
+    color: rgb(199, 99, 219);
+    font-size: 18px;
+}
+ div p{
+    text-align: justify;
+ }
+ ul > li{
+    list-style-type:square;
+ }
+
+ h4 + p{
+     margin-top: 13px;
+ }
+
+ h1 ~ h4{
+    background-color: rgba(245, 245, 220, 0.438);
+ }
+
+ input[type = "comment"]{
+    background-color: rgb(247, 247, 210);
+    border-radius: 8px;
+    height: 30px;
+    width: 400px;
+    border-color: rgb(220, 43, 226);
+ }
