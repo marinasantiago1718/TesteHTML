@@ -6,38 +6,49 @@
     <title> Teach Me How To Cook!</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .pink{
-            color :rgb(218, 23, 201)
+        .orangeTitle{
+            color :rgb(227, 69, 12);
+            background-color:#ffddb7;
+            border-radius: 10px;
         }
         h3{
             color:orangered; /*inline ganha de css*/
+        }
+
+        .box1{
+            border: 2px solid orange;
+            border-radius: 10px;
+            background-color: #fff0e1;
+            padding: 10px;
+            margin: 10px;
         }
         body{
             background-color: #fff8f0;
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: #333;
             line-height: 1.6;
-            padding: 20px;
+            padding: 50px;
         }
     </style>
 </head>
 <body>
     
         <header>
-            <h1 style="color: rgb(199, 30, 8); font-style: inherit; text-align: center; font-size: 40px;">Teach me how to cook!</h1>
-            <h2> <span class = "pink"> Bolo de cenoura com calda de chocolate </span> </h2>
+            <article id="topo"></article>
+            <h1 style="color: rgb(199, 30, 8); font-style: inherit; text-align: center; font-size: 30px; background-color: rgb(251, 251, 212);">TEACH ME HOW TO COOK!</h1>
+            <h2> <span class = "orangeTitle"> Bolo de cenoura com calda de chocolate </span> </h2>
             <h4 id="subtitle">Receita tradicional brasileira.</h4>
             <nav>
                 <ul>
                     <li> <a href = "#ingre" >Ingredientes</a></li>
-                    <li> <a href = "#modo " >Modo de preparo</a> </li>
+                    <li> <a href = "#modo" >Modo de preparo</a> </li>
                 </ul>
             </nav>
             <img src="bolo.jpg" alt="" style="width:500px; display:block; margin:auto;">
         </header>
         <hr>
         <main>
-            <p1> Para fazer a tradicional receita brasileira de bolo de cenoura com chocolate é muito simples! <br>
+            <p1> Para fazer a receita de bolo de cenoura com chocolate é muito simples! <br>
             Você vai precisar de:
             <br>  
             <section>  
@@ -70,16 +81,26 @@
             <hr>
             <article>
                 <h4> Cobertura: </h4>
-                <p> Em uma panela coloque o Leite MOÇA, o Chocolate em Pó DOIS FRADES e a manteiga e leve ao fogo baixo, mexendo sempre, até começar a desprender da panela.
+                <p> Em uma panela coloque o leite condensado, o Chocolate em Pó  e a manteiga e leve ao fogo baixo, mexendo sempre, até começar a desprender da panela.
                     Despeje ainda quente sobre o bolo, distribua o chocolate granulado e deixe esfriar</p>
             </article>
             </section>
             <hr>
             <section>
-                <input type="comment"
+                <input type="button" value="Salvar Receita" class="btn-salvar">
             </section>
             
         </main>
+        <footer class="rodape-fixo">
+        <p>© 2025 Teach Me How To Cook!</p>
+        <section>
+            <a href="#topo">Voltar ao topo</a> |
+            <div class="box1">
+                <p>Contato: teachmehowtocook@hotmail.com</p>
+                <p>Telefone: (11) 91234-5678</p>
+            </div>
+        </section>
+    </footer>
     
 </body>
 </html>

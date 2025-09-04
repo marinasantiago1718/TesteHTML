@@ -1,35 +1,131 @@
-nav ul li {
-    margin: auto;
+
+body, h1, h2, h3, h4, p, ul, li {
+
+    margin: 10px;
+    border: 10px;
+    padding: 5px;
 }
 
-p{
-    background-color: rgb(241, 135, 255);
+
+body {
+    background-color: #fff8f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+nav ul {
+    display: flex;          
+    justify-content: center;
+    gap: 20px;              
+    padding: 0;
+    list-style-type: square;    
+      
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #0015d3;/* conflita com inline*/
+    font-size: 48px;
+    text-shadow: 2px 2px #f5cba7;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+
+img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    display: block;
+}
+
+
+ul > li { 
+    list-style-type: none;
+    margin: 10px ;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 165);
     border-radius: 6px;
 }
 
-#subtitle{
-    color: rgb(199, 99, 219);
-    font-size: 18px;
+
+a[href="#ingre"] {
+    color: #e67e22;
+    font-weight: bold;
+    cursor: pointer;
 }
- div p{
-    text-align: justify;
- }
- ul > li{
-    list-style-type:square;
- }
+a[href="#modo"] {
+    color: #e67e22;
+    font-weight: bold;
+    cursor: pointer;
+}
+a:hover {
+    color: #e62222;
+    text-decoration: overline;
+}
 
- h4 + p{
-     margin-top: 13px;
- }
 
- h1 ~ h4{
-    background-color: rgba(245, 245, 220, 0.438);
- }
-
- input[type = "comment"]{
-    background-color: rgb(247, 247, 210);
+.btn-salvar {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 25px;
     border-radius: 8px;
-    height: 30px;
-    width: 400px;
-    border-color: rgb(220, 43, 226);
- }
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-salvar:hover {
+    background-color: #d35400;
+    transform: scale(1.05);
+}
+
+.btn-salvar:active {
+    
+    transform: scale(0.95);
+}
+
+
+h3 {
+    color: blue; 
+}
+
+
+#subtitle {
+    color: rgb(227, 69, 12)
+}
+
+
+p {
+    color: darkred !important; 
+}
+
+
+article p {
+    background: #fdebd0;
+    border-radius: 6px;
+    padding: 8px;
+    color: darkblue; /*entra em conflito com o p*/
+}
+
+
+footer {
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
